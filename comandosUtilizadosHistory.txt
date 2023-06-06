@@ -1,0 +1,80 @@
+  Id CommandLine
+  -- -----------
+   1 ls
+   2 cd .\Desktop\
+   3 ls
+   4 cd .\Esamen\
+   5 echo "# 20230605JuanFelipeDiaz_IntroInfor_P1" >> README.md
+   6 git init
+   7 git add README.md
+   8 git commit -m "commit 00 de JuanFelipeDiaz"
+   9 git branch -M main
+  10 git remote add origin https://github.com/diyeipipe1/20230605JuanFelipeDiaz_IntroInfor_P1.git
+  11 git push -u origin main
+  12 touch comandos.txt
+  13 echo > comandos.txt
+  14 echo main.js
+  15 echo index.html
+  16 ls
+  17 echo. > main.js
+  18 echo > main.js
+  19 echo > index.html
+  20 ls
+  21 git add .
+  22 git commit -m "commit 01 de JuanFelipeDiaz"
+  23 git push origin main
+  24 git checkout -b feature01
+  25 mkdir Terminal
+  26 ls
+  27 mkdir Hardware
+  28 ls
+  29 echo > .\Terminal\resumen.txt
+  30 echo > .\Hardware\resumen.txt
+  31 ls
+  32 cd .\Hardware\
+  33 ls
+  34 cd ..
+  35 cd .\Terminal\
+  36 ls
+  37 cd ..
+  38 ls
+  39 git add
+  40 git add .
+  41 git commit -m "commit 02 de JuanFelipeDiaz"
+  42 git push origin feature01
+  43 git checkout -b feature02
+  44 echo git checkout -b rama --^> Crea una rama y nos pone en ella >> comandos.txt
+  45 echo git commit -m "mensaje" --^> Crea un commit con el mensaje indicado >> comandos.txt
+  46 echo git init --^> Crea un repositorio local >> comandos.txt
+  47 ls
+  48 cd .\Terminal\
+  49 ls
+  50 echo "git checkout -b rama --> Crea una rama y nos pone en ella \n" >> comandos.txt
+  51 echo "git commit -m 'mensaje' --> Crea un commit con el mensaje indicado \n" >> comandos.txt
+  52 ls
+  53 echo "git checkout -b rama --> Crea una rama y nos pone en ella \n" >> resumen.txt
+  54 ls
+  55 echo "git commit -m 'mensaje' --> Crea un commit con el mensaje indicado \n" >> resumen.txt
+  56 echo "git init --> Crea un repositorio local \n" >> resumen.txt
+  57 echo "git add filename.extension -->  Añade cierto archivo o sus cambios a los que se tendrán en cuenta en el c...
+  58 echo "git push origin branchname --> Hace push de la rama branchname a el repo remoto \n" >> resumen.txt
+  59 cd ..
+  60 cd .\Hardware\
+  61 ls
+  62 echo "Memoria RAM (Random Access Memory), Unidad de procesamiento central (CPU), Placa madre (o motherboard)" >...
+  63 ls
+  64 cd ..
+  65 git add .
+  66 git commit -m "commit 03 de JuanFelipeDiaz"
+  67 git push origin feature02
+  68 ls
+  69 ren comandos.txt comandosUtilizados.txt
+  70 ls
+  71 git checkout main
+  72 git add .
+  73 git push origin main
+  74 git commit -m "commit 04 de JuanFelipeDiaz"
+  75 git push origin main
+  76 git push origin main
+  77 git status
+  78 git add .
